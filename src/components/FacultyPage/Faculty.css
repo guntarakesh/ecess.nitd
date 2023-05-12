@@ -1,0 +1,63 @@
+.rprofessors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.rall-prof{
+    display: flex;
+    flex-wrap: wrap;
+    gap:3rem;
+    margin:45px;
+}
+.profheading{
+   color: cadetblue;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size:24px;
+   margin-top:150px;
+   margin-bottom:20px;
+   padding-left:3px;
+   border-left:6px solid sandybrown;
+}
+.each-prof{
+    width:100%;
+}
+.rprof-links{
+    margin:24px 0px;
+}
+.rprof-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-bottom:28px;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  .rprof-btn{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .rprof-card div a{
+    text-decoration: none;
+    font-size: 22px;
+    padding: 10px;
+    color: blue;
+  }
+  
+  .rprof-btn:hover,.rprof div a:hover {
+    opacity: 0.7;
+  }

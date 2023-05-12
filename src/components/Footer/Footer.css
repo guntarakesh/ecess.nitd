@@ -1,0 +1,15 @@
+.all-pages_footer{
+    display: flex;
+    flex-direction: column;
+    margin-top:20px;
+    background-color:black;
+    color: blanchedalmond;
+    padding:10px;
+}
+.rfooterLinks{
+    margin:10px;
+}
+.rfooterLinks a{
+    margin-left:2rem;
+    color: sandybrown;
+}

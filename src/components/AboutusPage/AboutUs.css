@@ -1,0 +1,120 @@
+.rabout{
+    margin: auto;
+    padding-top:8rem;
+    width:60%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.main{
+    color:darkblue;
+    font-style:normal;
+    font-size:25px;
+    font-weight: 600;
+    border-bottom:5px solid sandybrown;
+    padding:3px;
+    border-radius:5px;
+    margin-bottom:15px;
+}
+.writings{
+    border-radius:10px;
+    background-color: dodgerblue;
+    font-weight: 500;
+    font-size:20px;
+    padding:15px 15px;
+}
+.writings:hover{
+    scale:1.026;
+    box-shadow:2px 2px 2px 2px  grey;
+}
+
+.raboutEvents{
+    margin-top:8rem;
+    display:flex;
+    flex-direction: column;
+}
+.raboutEventsHeading{
+    color:darkblue;
+    font-style:normal;
+    font-size:25px;
+    font-weight: 600;
+    border-left:4px solid salmon;
+    padding:3px;
+    border-radius:5px;
+    margin-bottom:15px;
+}
+.reachEvent{
+    display:flex;
+    flex-wrap:wrap;
+    gap:3rem;
+    justify-content: space-around;
+    margin:30px;
+}
+
+.rEventcard-container {
+    width:22rem;
+    border-radius: 1rem;
+    box-shadow: 0px 10px 8px #999;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+    background-color: white;
+    height: fit-content;
+    justify-content: center;
+  }
+  
+  .rEventcard-img {
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+  }
+  
+  .rEventcard-title {
+    margin: 1rem 5%;
+    font-size:larger;
+  }
+  
+  .rEventcard-description {
+    margin: 0.5rem 5%;
+  }
+  
+  .rEventcard-btn {
+    text-align: center;
+    width:60%;
+    border-radius: 5px;
+    padding:2px;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    margin:auto;
+    margin-bottom:1rem;
+  }
+
+@media screen and (max-width:400px) {
+    .writings{
+    width:330px;
+    border-radius:6px;
+    font-weight:400;
+    font-size:18px;
+    padding:5px 5px;
+   }
+   .reachEvent{
+    display:flex;
+    flex-wrap:wrap;
+    gap:0rem;
+    justify-content: space-around;
+    margin:auto;
+}
+.rEventcard-container{
+    margin :35px auto;
+}
+}
+
+@media screen and (max-width:800px) { 
+    .writings{
+    border-radius:6px;
+    font-weight:400;
+    font-size:22px;
+    padding:10px 10px;
+   }
+}

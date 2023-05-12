@@ -1,0 +1,40 @@
+
+.rmembers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.rall-mem{
+    display: flex;
+    flex-wrap: wrap;
+    gap:3rem;
+    justify-content: space-around;
+    margin:30px;
+}
+.teamheading{
+   color: cadetblue;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size:24px;
+   margin-top:150px;
+   margin-bottom:20px;
+   padding-left:3px;
+   border-left:6px solid sandybrown;
+}
+.each-rteam{
+    width:100%;
+    border-top-right-radius:30%;
+    border-bottom-left-radius:30%;
+}
+.rteam-links{
+    margin:10px;
+}
+.rteam-links a {
+    margin:20px;
+    color:rgb(247, 147, 60);
+}
+.rteam-card{
+    background-color: rgb(51, 143, 115);
+    border-radius:20px;
+    margin-bottom:15px;
+}

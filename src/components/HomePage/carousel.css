@@ -1,0 +1,28 @@
+.rgallery{
+    display: flex;
+    flex-direction: column;
+ }
+.rgalleryHeading{
+    color: rgb(12, 137, 226);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:36px;
+    margin-top:150px;
+    margin-bottom:40px;
+    padding-left:3px;
+    font-weight: 600;
+ }
+
+.rcarousel{
+    margin: auto;
+    width:80%;
+}
+.rbtn{
+    margin:6px;
+    padding:5px;
+    font-size: medium;
+    font-weight: bold;
+    background-color: black;
+    color: aquamarine;
+    text-transform: capitalize;
+    border-radius:5px;
+}
