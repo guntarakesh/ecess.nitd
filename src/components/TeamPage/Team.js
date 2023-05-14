@@ -1,6 +1,6 @@
 import React from 'react'
 import './Team.css'
-import memberPic from '../../Anup Kumar Bhattacharjee.f2f6f6e5.jpeg'
+import memberPic from './MY_IMAGE - Sriman Chakri.jpg'
 function Team() {
   return (
     <div className='rmembers'>

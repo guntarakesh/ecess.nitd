@@ -104,7 +104,7 @@ nav{
         height:100vh;
         clip-path: circle(0px);
         flex-direction: column; 
-        transition:1s ease-in;
+        transition:0.7 ease-in;
     }
     .open{
         clip-path: circle(500px);

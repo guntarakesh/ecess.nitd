@@ -35,9 +35,11 @@ function Navbar() {
        
         <ul className={isActive ? 'nav-links open': 'nav-links'}>
             <li><Link to='/'>Home</Link></li>
-            <li><Link to='/about'>AboutUs</Link></li>
-            <li><Link to='/team'>Team</Link></li>
+           
+           
             <li><Link to='/faculty'>Faculty</Link></li>
+            <li><Link to='/team'>Team</Link></li>
+            <li><Link to='/about'>AboutUs</Link></li>
         </ul>
     </nav>
     <Routes>

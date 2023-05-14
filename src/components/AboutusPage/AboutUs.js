@@ -1,6 +1,6 @@
 import React from 'react'
 import './AboutUs.css'
-import pic from '../../Anup Kumar Bhattacharjee.f2f6f6e5.jpeg'
+import pic from '../HomePage/pcb5.jpg'
 function AboutUs() {
   return (
     <div className='rabout'>
