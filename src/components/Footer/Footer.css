@@ -2,8 +2,8 @@
     display: flex;
     flex-direction: column;
     margin-top:20px;
-    background-color:black;
-    color: blanchedalmond;
+    background-color:teal;
+    color: rgb(18, 17, 16);
     padding:10px;
 }
 .rfooterLinks{
@@ -11,5 +11,5 @@
 }
 .rfooterLinks a{
     margin-left:2rem;
-    color: sandybrown;
+    color: rgba(244, 233, 111, 0.961);
 }

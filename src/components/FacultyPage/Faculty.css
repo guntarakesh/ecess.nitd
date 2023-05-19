@@ -21,11 +21,14 @@
 }
 .each-prof{
     width:100%;
+    object-fit: contain;
 }
 .rprof-links{
-    margin:24px 0px;
+    margin:2px 0px;
 }
 .rprof-card {
+  width:400px;
+  height:600px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: auto;
     text-align: center;
@@ -60,4 +63,15 @@
   
   .rprof-btn:hover,.rprof div a:hover {
     opacity: 0.7;
+  }
+  @media screen and (max-width:400px) {
+    .rprof-card {
+      width:340px;
+      height:600px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        margin: auto;
+        text-align: center;
+        font-family: arial;
+        margin-bottom:28px;
+      }
   }

@@ -13,7 +13,7 @@ function Footer() {
     <div className='rcopyRight'>
     <i class="fa fa-copyright"></i>2023 ECESS NITDGP.
     <br></br>
-    <p>Designed and Developed by <b style={{color:'sandybrown'}}>Web Development Team</b> .</p>
+    <p>Designed and Developed by <b style={{color:'rgba(244, 233, 111, 0.961)'}}>Web Development Team</b> .</p>
     </div>
     </div>
   )

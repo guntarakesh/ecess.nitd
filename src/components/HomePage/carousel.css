@@ -15,14 +15,23 @@
 .rcarousel{
     margin: auto;
     width:80%;
+    transition:.3s ease-in-out;
 }
-.rbtn{
-    margin:6px;
-    padding:5px;
-    font-size: medium;
-    font-weight: bold;
-    background-color: black;
-    color: aquamarine;
-    text-transform: capitalize;
-    border-radius:5px;
+.reach_img{
+    width:800px;
+    height:550px;
+    border-radius:6px;
+    transition:1s ease-in-out;
+    margin: auto;
+}
+
+@media screen and (max-width:400px){
+    .reach_img{
+        width:350px;
+        height:250px;
+        border-radius:6px;
+        transition:1s ease-in-out;
+        margin: auto;
+    }
+    
 }

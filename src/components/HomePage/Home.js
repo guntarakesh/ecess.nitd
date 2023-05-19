@@ -3,13 +3,14 @@ import './home.css'
 import logo from '../ecess-logo.png'
 import pcb1 from './pcb1.jpg'
 import pcb5 from './pcb5.jpg'
+import bg from './background.jpg'
 import Carousel from './carousel'
 function Home() {
   return (
       <div className="whole-website">
-    <div className="primary-section" style={{ backgroundImage: `url(${pcb1})`, backgroundSize:'cover' }}>
+    <div className="primary-section" style={{ backgroundImage: `url(${bg})`, backgroundSize:'contain' }}>
     </div>
-  <div className="secondary-section" style={{ backgroundImage: `url(${pcb5})`, backgroundSize:'cover' }}>
+  <div className="secondary-section">
     <div className="section">
         <div className="logo"> <img  className="logo" src={logo} alt=""  /> </div>
         <div className="heading"> MISSION  </div>
