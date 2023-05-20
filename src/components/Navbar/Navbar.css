@@ -82,7 +82,7 @@ nav{
 
 
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:412px) {
     nav{
         position: fixed;
         z-index: 3;

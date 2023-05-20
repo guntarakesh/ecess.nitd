@@ -64,7 +64,7 @@
   .rprof-btn:hover,.rprof div a:hover {
     opacity: 0.7;
   }
-  @media screen and (max-width:400px) {
+  @media screen and (max-width:412px) {
     .rprof-card {
       width:340px;
       height:600px;

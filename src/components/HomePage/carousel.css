@@ -10,8 +10,7 @@
     margin-bottom:40px;
     padding-left:3px;
     font-weight: 600;
- }
-
+}
 .rcarousel{
     margin: auto;
     width:80%;
@@ -25,7 +24,7 @@
     margin: auto;
 }
 
-@media screen and (max-width:400px){
+@media screen and (max-width:412px){
     .reach_img{
         width:350px;
         height:250px;

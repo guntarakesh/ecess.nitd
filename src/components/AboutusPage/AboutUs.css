@@ -90,7 +90,7 @@
     margin-bottom:1rem;
   }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:413px) {
     .writings{
     width:330px;
     border-radius:6px;

@@ -6,6 +6,18 @@ function Faculty() {
     <div className='rprofessors'>
       <div className='profheading'>Our Faculty</div>
       <div className='rall-prof'>
+      <div className="rprof-card">
+  <img className='each-prof' src={'https://www.nitdgp.ac.in/uploads/6b32e6e80c33746a2b73a121f4a3ad30.png'} alt="Durbadal Mandal"/>
+  <h1>Durbadal Mandal</h1>
+  <p>Associate Professor</p>
+  <p className="title">Antenna Optimization, Signal Processing, Soft Computing </p>
+  <p>Research Interest</p>
+  <div className='rprof-links'>
+    <a href="#"><i className="fa fa-twitter"></i></a>  
+    <a href="#"><i className="fa fa-linkedin"></i></a>  
+    <a href="#"><i className="fa fa-envelope"></i></a> 
+  </div>
+</div>
   <div className="rprof-card">
   <img className='each-prof' src={'https://www.nitdgp.ac.in/uploads/27.jpg'} alt="Aniruddha Chandra"/>
   <h1>Aniruddha Chandra</h1>
@@ -87,18 +99,7 @@ Integer Sequences .</p>
     <a href="#"><i className="fa fa-envelope"></i></a> 
   </div>
 </div>
-  <div className="rprof-card">
-  <img className='each-prof' src={'https://www.nitdgp.ac.in/uploads/6b32e6e80c33746a2b73a121f4a3ad30.png'} alt="Durbadal Mandal"/>
-  <h1>Durbadal Mandal</h1>
-  <p>Associate Professor</p>
-  <p className="title">Antenna Optimization, Signal Processing, Soft Computing </p>
-  <p>Research Interest</p>
-  <div className='rprof-links'>
-    <a href="#"><i className="fa fa-twitter"></i></a>  
-    <a href="#"><i className="fa fa-linkedin"></i></a>  
-    <a href="#"><i className="fa fa-envelope"></i></a> 
-  </div>
-</div>
+ 
   <div className="rprof-card">
   <img className='each-prof' src={'https://www.nitdgp.ac.in/uploads/33.jpg'} alt="Gautam Kumar Mahanti"/>
   <h1> Gautam Kumar Mahanti </h1>

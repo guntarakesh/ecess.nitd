@@ -11,7 +11,7 @@ function Home() {
     <div className="primary-section" style={{ backgroundImage: `url(${bg})`, backgroundSize:'contain' }}>
     </div>
   <div className="secondary-section">
-    <div className="section">
+    <div className="section ">
         <div className="logo"> <img  className="logo" src={logo} alt=""  /> </div>
         <div className="heading"> MISSION  </div>
         <div className="descreption">

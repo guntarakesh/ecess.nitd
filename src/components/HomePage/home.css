@@ -172,116 +172,30 @@ img {
     }
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:412px) {
     
     .secondary-section {
         display: flex;
         flex-direction: column;
     }
-
     .section {
-        width: 360px;
-        height:900px;
+        width: 340px;
+        height:550px;
         margin-bottom: 60px;
         margin-left: 2px;
         margin-right: 2px;
     }
+    
+    .two{
+        height:450px;
+    }
 
     .descreption {
-        font-size: 21px;
+        font-size:16px;
     }
 
-    .one {
-        height:900px;
-        border-radius:10px;
-    }
-    
-    .two {
-        height:650px;
-        border-radius:10px;
-    }
     
 img {
     width:140%;
 }
-@keyframes text{
-    from{
-        font-size:80px;
-        font-weight:600;
-        rotate:0deg;
-    }
-    to{
-        font-size:140px;
-        font-weight:600;
-        rotate:360deg;
-    }
-}
-.center{
-    width:100%;
-}
-
-#carousel > div{
-    width:150px;
-}
-}
-
-  /* loader */ 
-  .preload-finish{
-    opacity: 0;
-    pointer-events: none;
-  }
-  #loading-page{
-    background: #000;
-    width:100%;
-    height:720px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    position: fixed;
-    z-index: 100;
-    transition: opacity 0.5s ease;
-}
-
-.name{
-    font-size:90px;
-    font-weight:600;
-    display: flex;
-    flex-direction: row;
-    background-image: -webkit-linear-gradient(left,aqua,green);
-    -webkit-text-fill-color:transparent;
-    -webkit-background-clip:text; 
-}
-
-.decoration{
-    width:110px;
-    height:8px;
-    border-radius:4px;
-    background-color:white;
-    animation: color 2s ease-in-out infinite;
-    position: relative;
-    overflow: hidden;
-}
-.decoration div{
-    height:100%;
-    background-color:#f10707;
-    position: absolute;
-    animation: tex 3s ease-in-out infinite;
-    transition:0.5s;
-}
-@keyframes tex{
-    0%{
-        
-        width:0px;
-    }
-    25%{
-    
-        width:110px;
-    }
-    50%{
-        width:55px;
-    }
-    100%{
-        width:0px;
-    }
 }
