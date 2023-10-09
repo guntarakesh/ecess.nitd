@@ -1,11 +1,13 @@
 nav{
-    height: 6rem;
+    height:4.5rem;
     width: 100vw;
     background-color:rgb(4, 71, 77);
     box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
     display: flex;
     position: fixed;
     z-index: 10;
+    align-items: center;
+    margin: 0;
 }
 
 /*Styling logo*/
@@ -14,7 +16,7 @@ nav{
     text-align: center;
 }
 .logo img {
-    height: 5rem;
+    height:4.5rem;
     width: 5rem;
 }
 
@@ -82,7 +84,7 @@ nav{
 
 
 
-@media screen and (max-width:412px) {
+@media screen and (max-width:416px) {
     nav{
         position: fixed;
         z-index: 3;
@@ -106,6 +108,7 @@ nav{
         clip-path: circle(0px);
         flex-direction: column; 
         transition:0.7 ease-in;
+        padding-top:400px;
     }
     .open{
         clip-path: circle(500px);

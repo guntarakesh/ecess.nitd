@@ -18,7 +18,7 @@
 }
 .reach_img{
     width:800px;
-    height:550px;
+    height:450px;
     border-radius:6px;
     transition:1s ease-in-out;
     margin: auto;
@@ -27,7 +27,7 @@
 @media screen and (max-width:412px){
     .reach_img{
         width:350px;
-        height:250px;
+        height:220px;
         border-radius:6px;
         transition:1s ease-in-out;
         margin: auto;

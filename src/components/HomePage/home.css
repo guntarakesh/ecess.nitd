@@ -1,7 +1,6 @@
 
 .whole-website{
     width:100%;
-    
 }
 #loading-page{
     display: none;
@@ -172,7 +171,7 @@ img {
     }
 }
 
-@media screen and (max-width:412px) {
+@media screen and (max-width:416px) {
     
     .secondary-section {
         display: flex;

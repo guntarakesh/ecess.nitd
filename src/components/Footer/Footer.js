@@ -5,10 +5,10 @@ function Footer() {
     
     <div className="all-pages_footer">
       <div className='rfooterLinks'>
-    <a href="#"><i className="fa fa-instagram"></i></a> 
-    <a href="#"><i className="fa fa-twitter"></i></a>  
-    <a href="#"><i className="fa fa-linkedin"></i></a>  
-    <a href="#"><i className="fa fa-facebook"></i></a> 
+    <a href="mailto:ecess.ece.nitdurgapur@gmail.com"><i className="fa fa-envelope"></i></a>  
+    <a href="https://www.instagram.com/ece_students_society/"><i className="fa fa-instagram"></i></a> 
+    <a href="https://www.linkedin.com/company/73885679/admin/feed/posts/"><i className="fa fa-linkedin"></i></a>  
+    <a href="https://www.facebook.com/ecess.nitdgp/"><i className="fa fa-facebook"></i></a> 
     </div>
     <div className='rcopyRight'>
     <i class="fa fa-copyright"></i>2023 ECESS NITDGP.

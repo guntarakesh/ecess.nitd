@@ -5,11 +5,13 @@ import pcb1 from './pcb1.jpg'
 import pcb5 from './pcb5.jpg'
 import bg from './background.jpg'
 import Carousel from './carousel'
+import MainCarousel from '../mainCarousel/mainCarousel'
 function Home() {
   return (
       <div className="whole-website">
-    <div className="primary-section" style={{ backgroundImage: `url(${bg})`, backgroundSize:'contain' }}>
-    </div>
+    {/* <div className="primary-section" style={{ backgroundImage: `url(${bg})`, backgroundSize:'contain' }}>
+    </div> */}
+    <MainCarousel/>
   <div className="secondary-section">
     <div className="section ">
         <div className="logo"> <img  className="logo" src={logo} alt=""  /> </div>
